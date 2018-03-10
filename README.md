@@ -200,11 +200,13 @@ mduser.on("connect",function(result){
 });
 
 ```
-
+= nodejs =
 
 安装nodejs   d:\develop\nodejs
 $ npm config set registry https://registry.npm.taobao.org
 $ npm install -g node-gyp
+
+gyp 只支持python2， cygwin安装python2, 拷贝python2.7为python.exe
 $ node-gyp rebuild --nodedir d:/develop/nodejs
 $ node trade_confirm.js
 
