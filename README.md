@@ -202,8 +202,11 @@ mduser.on("connect",function(result){
 ```
 
 
-
-
+安装nodejs   d:\develop\nodejs
+$ npm config set registry https://registry.npm.taobao.org
+$ npm install -g node-gyp
+$ node-gyp rebuild --nodedir d:/develop/nodejs
+$ node trade_confirm.js
 
 
 
